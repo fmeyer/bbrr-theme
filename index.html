@@ -1,0 +1,26 @@
+<h1 id="better-roam-research">Better Roam Research</h1>
+<p>This is one of the most popular <strong>minimal themes</strong> for <a href="https://roamresearch.com">Roam Research</a>, with system-level <strong>Dark Mode</strong> support.</p>
+<p>👀 How does it look? <strong><a href="#preview">See the preview below</a>.</strong></p>
+<p>💬 Got feedback? <strong><a href="https://twitter.com/linuz90">Say hi on Twitter</a>.</strong></p>
+<p>🔥 Want to contribute? <strong><a href="#editing-this-theme">Edit the theme</a>.</strong></p>
+<p>If you’re a screenwriter, try my new <a href="https://github.com/linuz90/roam-screenwriter">Roam Screenwriter</a> theme.</p>
+<h1 id="how-to-use">How to use</h1>
+<ol type="1">
+<li><p>Inside Roam Research, create a page named exactly <code>roam/css</code></p></li>
+<li><p>Create a <code>[[Better Roam Research]]</code> bullet point.</p></li>
+<li><p>Create a child <strong>code block</strong> inside it (you can write three backticks to create it: ```) and change it to <strong>css</strong></p></li>
+<li><p>Paste this in the code block <code>@import url("https://linuz90.github.io/better-roam-research/src/css/main.css");</code></p></li>
+</ol>
+<p>It will look like this:</p>
+<p><img src="/assets/how-to.png" /></p>
+<p>The theme will change when I push updates in this repo ⚡️</p>
+<h1 id="preview">Preview</h1>
+<p>Light:</p>
+<p><img src="/assets/preview-light.png" /></p>
+<p>When Dark Mode is enabled on your computer:</p>
+<p><img src="/assets/preview-dark.png" /></p>
+<h1 id="editing-this-theme">Editing this theme</h1>
+<p>To create this theme I’m using the <strong>SCSS</strong> syntax. This file is compiled into a regular <strong>CSS</strong> file used for the theme.</p>
+<p>To edit the theme, install <a href="https://github.com/sass/ruby-sass">Ruby Sass</a> (it’s not maintained anymore, will use something else in the future).</p>
+<p>Then compile the SASS using this command:</p>
+<p><code>sass --sourcemap=none --no-cache --watch ./main.scss:./main.css</code></p>
